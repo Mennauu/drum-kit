@@ -1,0 +1,40 @@
+body {
+  background-image: url('../assets/drums.jpg');
+  background-size: cover;
+  color: #fff;
+}
+
+.key-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.key {
+  text-align: center;
+  margin: 1em;
+  padding: 1em 0;
+  background: rgba(0, 0, 0, 0.8);
+  max-width: 120px;
+  width: 100%;
+  border: 5px solid #000;
+  transition: 0.1s;
+}
+
+.key span {
+ display: block;
+}
+
+.letter {
+  font-size: 2em;
+}
+
+.sound-name {
+  color: orange;
+}
+
+.active-key {
+  border: 6px solid orange;
+  transform: scale(1.1);
+}
