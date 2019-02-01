@@ -1,1 +1,3 @@
-# drum-kit
+# Drum kit
+
+![Drum kit](./assets/drumkit.jpg)
