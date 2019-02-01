@@ -1,3 +1,9 @@
+/**
+ * https://github.com/Mennauu/drum-kit
+ * MIT licensed
+ *
+ * Copyright (c) 2019 menno.work - A project by Menno de Vries
+ */
 const keyContainer = document.querySelector('.key-container')
 const keys = ['A', 'S', 'D', 'F', 'G', 'H', 'J', 'K', 'L']
 const keyCodes = [65, 83, 68, 70, 71, 72, 74, 75, 76]
