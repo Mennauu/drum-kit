@@ -1,9 +1,9 @@
-/**
- * https://github.com/Mennauu/drum-kit
- * MIT licensed
- *
- * Copyright (c) 2019 menno.work - A project by Menno de Vries
- */
+/********************************
+***                           ***
+******      JavaScript     ******
+***                           ***
+* Copyright (c) 2019 menno.work *
+*********************************/
 const keyContainer = document.querySelector('.key-container')
 const keys = ['A', 'S', 'D', 'F', 'G', 'H', 'J', 'K', 'L']
 const keyCodes = [65, 83, 68, 70, 71, 72, 74, 75, 76]
@@ -17,7 +17,7 @@ function appendData() {
     key.className = 'key'
     // Add the values from keys, sounds and soundFiles 
     // Note: positions are equal
-    key.innerHTML = '<span class="letter">' + keys[i] + '</span><span class="sound-name">' + sounds[i] + '</span><audio class="' + sounds[i].toLowerCase() + '"><source src="assets/sounds/' + soundFiles[i] + '" type="audio/wav"></audio>'
+    key.insertAdjacentHTML('beforeend', '<span class="letter">' + keys[i] + '</span><span class="sound-name">' + sounds[i] + '</span><audio class="' + sounds[i].toLowerCase() + '"><source src="assets/sounds/' + soundFiles[i] + '" type="audio/wav"></audio>')
     // Append the newly created divs to the container
     keyContainer.appendChild(key)
   }

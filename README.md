@@ -1,3 +1,3 @@
 # Drum kit
 
-![Drum kit](./assets/drumkit.jpg)
+![Drum kit](./assets/preview.jpg)
